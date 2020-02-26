@@ -24,10 +24,14 @@ export const SearchStyle = StyleSheet.create({
 		borderColor: '#ccc',
 		borderWidth: 0.5,
 		borderRadius: 5,
+		color: '#000',
 		padding: 10,
 	} as ViewStyle,
 	nonCloseButton: {
 		marginRight: 20,
+	} as ViewStyle,
+	nonBackButton: {
+		marginLeft: 20,
 	} as ViewStyle,
 	leftBtn: {
 		paddingVertical: 20,
